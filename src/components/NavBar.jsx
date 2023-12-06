@@ -11,7 +11,9 @@ function NavBar() {
           </NavLink>
           |
           <NavLink to="/new" activeclassname="active">
-            <li className="text-lg font-semibold text-slate-100">Create Post</li>
+            <li className="text-lg font-semibold text-slate-100">
+              Create Post
+            </li>
           </NavLink>
         </ul>
       </nav>

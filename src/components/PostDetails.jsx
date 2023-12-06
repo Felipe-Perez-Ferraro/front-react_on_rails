@@ -13,10 +13,12 @@ function PostDetails() {
   }, [dispatch, id]);
 
   return (
-    <div>
-      <h2>{post.title}</h2>
-      <p>{post.body}</p>
-    </div>
+    <section className="flex justify-center my-5">
+      <article className="border border-slate-900 rounded bg-slate-100 p-2 w-72">
+        <h2 className="text-3xl font-bold text-center mb-4">{post.title}</h2>
+        <p>{post.body}</p>
+      </article>
+    </section>
   );
 }
 
